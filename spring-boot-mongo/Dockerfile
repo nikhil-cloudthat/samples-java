@@ -16,6 +16,6 @@ EXPOSE 8080
 # Define environment variables
 ENV MONGODB_URI=mongodb://localhost:27017/Keploy
 
-# Run the application when the container launches
+
 # CMD ["java", "-jar", "PotionsAPI-0.0.1-SNAPSHOT.jar"]
 CMD ["/usr/share/maven/bin/mvn", "spring-boot:run"]
